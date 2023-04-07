@@ -9,4 +9,5 @@ def solution(x: np.array) -> float:
     # Измените код этой функции
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-    return math.log(np.prod(x))/len(x) # Ваш ответ
+    y=np.log(x - 435)
+    return y.mean() # Ваш ответ
